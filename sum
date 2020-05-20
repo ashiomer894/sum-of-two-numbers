@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+void main( )
+
+{
+
+  float x,y,sum;
+  
+int choice;
+  
+ while(choice!=2)
+  {
+
+printf ("Enter the first number:");
+
+scanf ("%f",&x);
+
+printf ("Enter the second number:");
+
+scanf ("%f",&y);
+
+sum=x+y;
+
+printf ("The total number is:%f\n",sum);
+
+printf("\n Press 1 for continue");
+
+printf("\n Press 2 for exit");
+
+printf("\n Enter Your choice");
+
+scanf("%d",&choice);
+}
+}
